@@ -17,4 +17,8 @@ JSON_PRETTY_PRINT));
 
 echo "Dados salvos com sucesso! <a href='index.
 php'>Voltar <a/>";
+
+echo "Dados salvos com sucesso!";
+header("refresh:1url=index.php");
+exit();
 ?>
